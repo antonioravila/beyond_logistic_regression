@@ -1,0 +1,3 @@
+batch_type,n_batches,fixed_oracle_max_mae,old_oracle_mean_mae
+monthly,81,0.0,0.0257
+weekly,357,0.0,0.0105

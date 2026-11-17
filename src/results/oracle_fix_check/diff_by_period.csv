@@ -1,0 +1,18 @@
+,,dp,tpr_diff,fpr_diff
+,,oracle-sma,oracle-sma,oracle-sma
+model_name,period,,,
+logistic_regression,pre-pandemic,0.2235,-0.0032,0.0287
+logistic_regression,acute 1,0.2336,0.0255,0.1811
+logistic_regression,acute 2,-0.126,0.3942,-0.2562
+logistic_regression,transition,-0.1756,0.3286,-0.1283
+logistic_regression,endemic,-0.0955,-0.0075,-0.1417
+random_forest,pre-pandemic,0.1488,0.5496,0.1695
+random_forest,acute 1,0.2527,0.1484,0.0473
+random_forest,acute 2,-0.0908,0.4544,-0.0888
+random_forest,transition,-0.1551,0.2015,-0.0152
+random_forest,endemic,-0.1277,-0.0245,-0.0411
+xgboost,pre-pandemic,0.1419,0.0518,0.2569
+xgboost,acute 1,0.2636,-0.0949,-0.1625
+xgboost,acute 2,-0.298,0.8954,-0.1684
+xgboost,transition,-0.2627,0.5002,-0.0237
+xgboost,endemic,-0.24,0.0307,-0.1022

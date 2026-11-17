@@ -1,0 +1,9 @@
+\__pycache__
+\.idea
+env/
+*.parquet
+.env
+*.vscode
+.venv/*
+*.log
+src/figures/
